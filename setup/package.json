@@ -5,5 +5,7 @@
     "scripts": {
         "start": "p4rm run"
     },
-    "dependencies": {}
+    "dependencies": {
+        "@p4/platform": "0.7.0"
+    }
 }

@@ -6,7 +6,7 @@
         "start": "p4rm run"
     },
     "dependencies": {
-        "@p4/platform": "0.7.0"
+        "@p4/platform": "0.8.0"
     },
     "config": {
         "environment": "PRODUCTION",
@@ -31,9 +31,9 @@
             }
         },
         "programs": {
-            "@p4rm/user-management": {},
-            "@p4rm/security": {},
-            "@p4rm/core": {
+            "@p4/user-management": {},
+            "@p4/security": {},
+            "@p4/core": {
                 "sender": {
                     "host": "smtp.office365.com",
                     "port": "587",
@@ -56,7 +56,7 @@
                     "tls": true
                 }
             },
-            "@p4rm/task-management": {}
+            "@p4/task-management": {}
         }
     }
 }
